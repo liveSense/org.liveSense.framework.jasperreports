@@ -3,7 +3,7 @@
 ## Description
 liveSense Jasper report framework
 
-## Exported packages
+## OSGi Exported packages
 * net.sf.jasperreports.ant(4.5.0.SNAPSHOT)
 * net.sf.jasperreports.charts(4.5.0.SNAPSHOT)
 * net.sf.jasperreports.charts.base(4.5.0.SNAPSHOT)
@@ -103,7 +103,7 @@ liveSense Jasper report framework
 * net.sf.jasperreports.web.servlets.resources.templates(4.5.0.SNAPSHOT)
 * net.sf.jasperreports.web.util(4.5.0.SNAPSHOT)
 
-## Dependencies
+## OSGi Dependencies
 * __System Bundle - org.apache.felix.framework (3.0.8)__
 	* javax.accessibility
 	* javax.crypto
@@ -196,10 +196,14 @@ liveSense Jasper report framework
 	* org.eclipse.jdt.internal.compiler.classfmt
 	* org.eclipse.jdt.internal.compiler.env
 	* org.eclipse.jdt.internal.compiler.problem
-* __[liveSense :: Extension :: javax.persistence - org.liveSense.misc.javax.persistence](http://github.com/liveSense/org.liveSense.misc.javax.persistence) (1.0.1.1_0-SNAPSHOT)__
+* __[liveSense :: Extension :: javax.persistence - org.liveSense.misc.javax.persistence (2-SNAPSHOT)](http://github.com/liveSense/org.liveSense.misc.javax.persistence)__
 	* javax.persistence
 
-## Embedded JARs
-* jasperreports-4.5.0.jar* itext-2.1.7.jar* jfreechart-1.0.13.jar* jcommon-1.0.16.jar
+## OSGi Embedded JARs
+* jasperreports-4.5.0.jar
+* itext-2.1.7.jar
+* jfreechart-1.0.13.jar
+* jcommon-1.0.16.jar
+
 ## Dependency Graph
-![alt text](http://raw.github.com.everydayimmirror.in/liveSense/org.liveSense.framework.jasperreports/master/diagram.svg "")
+![alt text](http://raw.github.com.everydayimmirror.in/liveSense/org.liveSense.framework.jasperreports/master/osgidependencies.svg "")
