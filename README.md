@@ -104,7 +104,7 @@ liveSense Jasper report framework
 * net.sf.jasperreports.web.util(4.5.0.SNAPSHOT)
 
 ## OSGi Dependencies
-* __System Bundle - org.apache.felix.framework (3.0.8)__
+* __System Bundle - org.apache.felix.framework (4.0.3)__
 	* javax.accessibility
 	* javax.crypto
 	* javax.imageio
@@ -126,19 +126,57 @@ liveSense Jasper report framework
 	* javax.swing.text
 	* javax.swing.text.html
 	* javax.xml.namespace
+	* javax.xml.namespace
+	* javax.xml.parsers
 	* javax.xml.parsers
 	* javax.xml.soap
+	* javax.xml.soap
+	* javax.xml.transform
 	* javax.xml.transform
 	* javax.xml.transform.dom
+	* javax.xml.transform.dom
+	* javax.xml.transform.stream
 	* javax.xml.transform.stream
 	* javax.xml.xpath
+	* javax.xml.xpath
+	* org.w3c.dom
 	* org.w3c.dom
 	* org.w3c.dom.traversal
+	* org.w3c.dom.traversal
+	* org.xml.sax
 	* org.xml.sax
 	* org.xml.sax.helpers
+	* org.xml.sax.helpers
+* __Spring Core - org.springframework.core (3.1.4.RELEASE)__
+	* org.springframework.core.io
+* __Apache ServiceMix :: Bundles :: js - org.apache.servicemix.bundles.rhino (1.0.0.7R2_3)__
+	* org.mozilla.javascript
+* __Servlet 3.0 - org.apache.geronimo.specs.geronimo-servlet_3.0_spec (1.0)__
+	* javax.servlet
+	* javax.servlet
+	* javax.servlet.http
+	* javax.servlet.http
+* __Apache ServiceMix :: Bundles :: xalan - org.apache.servicemix.bundles.xalan (2.7.1.6)__
+	* org.apache.xpath
+	* org.apache.xpath.objects
+* __Commons BeanUtils - org.apache.commons.beanutils (1.8.3)__
+	* org.apache.commons.beanutils
+	* org.apache.commons.beanutils.locale
+	* org.apache.commons.beanutils.locale.converters
+* __Commons Digester - org.apache.commons.digester (2.1)__
+	* org.apache.commons.digester
+* __Groovy Runtime - groovy-all (1.8.2)__
+	* groovyjarjarasm.asm
+	* org.codehaus.groovy.ast
+	* org.codehaus.groovy.control
 * __bcmail - bcmail (1.46)__
 	* org.bouncycastle.cms
-* __bcprov-ext - bcprov-ext (1.46)__
+* __bctsp - bctsp (1.46)__
+	* org.bouncycastle.tsp
+* __Apache ServiceMix :: Bundles :: antlr - org.apache.servicemix.bundles.antlr (2.7.7.4)__
+	* antlr
+	* antlr.collections.impl
+* __bcprov - bcprov (1.46)__
 	* org.bouncycastle.asn1
 	* org.bouncycastle.asn1.cmp
 	* org.bouncycastle.asn1.cms
@@ -153,50 +191,26 @@ liveSense Jasper report framework
 	* org.bouncycastle.crypto.params
 	* org.bouncycastle.jce.provider
 	* org.bouncycastle.ocsp
-* __bctsp - bctsp (1.46)__
-	* org.bouncycastle.tsp
-* __Commons BeanUtils - org.apache.commons.beanutils (1.8.3)__
-	* org.apache.commons.beanutils
-	* org.apache.commons.beanutils.locale
-	* org.apache.commons.beanutils.locale.converters
-* __Spring Beans - org.springframework.beans (3.0.5.RELEASE)__
-	* org.springframework.beans.factory
-	* org.springframework.beans.factory.xml
-* __Commons Collections - org.apache.commons.collections (3.2.1)__
-	* org.apache.commons.collections
-	* org.apache.commons.collections.comparators
-* __Spring Core - org.springframework.core (3.0.5.RELEASE)__
-	* org.springframework.core.io
-* __Commons Digester - org.apache.commons.digester (2.1)__
-	* org.apache.commons.digester
-* __Apache ServiceMix :: Bundles :: xalan - org.apache.servicemix.bundles.xalan (2.7.1.4)__
-	* org.apache.xpath
-	* org.apache.xpath.objects
-* __jcl-over-slf4j - jcl.over.slf4j (1.6.1)__
-	* org.apache.commons.logging
-* __Apache ServiceMix :: Bundles :: antlr - org.apache.servicemix.bundles.antlr (2.7.7.4)__
-	* antlr
-	* antlr.collections.impl
-* __Groovy Runtime - groovy-all (1.8.2)__
-	* groovyjarjarasm.asm
-	* org.codehaus.groovy.ast
-	* org.codehaus.groovy.control
-* __Apache Felix Http Jetty - org.apache.felix.http.jetty (2.2.0)__
-	* javax.servlet
-	* javax.servlet.http
-* __Apache Sling Scripting JavaScript Support - org.apache.sling.scripting.javascript (2.0.12)__
-	* org.mozilla.javascript
-* __Jackson JSON processor - jackson-core-asl (1.9.10)__
-	* org.codehaus.jackson
 * __Data mapper for Jackson JSON processor - jackson-mapper-asl (1.9.10)__
 	* org.codehaus.jackson.map
-* __Apache ServiceMix :: Bundles :: core - org.apache.servicemix.bundles.jdt-core (3.2.3.5)__
+* __Jackson JSON processor - jackson-core-asl (1.9.10)__
+	* org.codehaus.jackson
+* __OPS4J Pax Logging - API - org.ops4j.pax.logging.pax-logging-api (1.7.0)__
+	* org.apache.commons.logging
+	* org.apache.commons.logging
+* __OPS4J Pax Web - Jsp Support - org.ops4j.pax.web.pax-web-jsp (3.0.0.M3)__
 	* org.eclipse.jdt.core.compiler
 	* org.eclipse.jdt.internal.compiler
 	* org.eclipse.jdt.internal.compiler.classfmt
 	* org.eclipse.jdt.internal.compiler.env
 	* org.eclipse.jdt.internal.compiler.problem
-* __[liveSense :: Extension :: javax.persistence - org.liveSense.misc.javax.persistence (2-SNAPSHOT)](http://github.com/liveSense/org.liveSense.misc.javax.persistence)__
+* __Commons Collections - org.apache.commons.collections (3.2.1)__
+	* org.apache.commons.collections
+	* org.apache.commons.collections.comparators
+* __Spring Beans - org.springframework.beans (3.1.4.RELEASE)__
+	* org.springframework.beans.factory
+	* org.springframework.beans.factory.xml
+* __Apache ServiceMix :: Specs :: Java Persistence API 1.4 - org.apache.servicemix.specs.java-persistence-api-1.1.1 (2.2.0)__
 	* javax.persistence
 
 ## OSGi Embedded JARs

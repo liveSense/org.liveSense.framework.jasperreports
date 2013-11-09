@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><features name="liveSense-${liveSense.version}-framework-jasperreports" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+	<feature name="liveSense-framework-jasperreports" version="${liveSense.framework.jasperreports.version}" description="liveSense framework jasperreports">
+		<feature>liveSense-core-persistence</feature>
+        <feature>liveSense-core-apache-commons</feature>
+        <feature>wss4j</feature>
+        <bundle dependency="true">mvn:org.codehaus.groovy/groovy-all/1.8.2</bundle>
+		<bundle dependency="true">mvn:org.bouncycastle/bcmail-jdk16/1.46</bundle>
+		<bundle dependency="true">mvn:org.bouncycastle/bcprov-jdk16/1.46</bundle>
+		<bundle dependency="true">mvn:org.bouncycastle/bcprov-ext-jdk16/1.46</bundle>
+		<bundle dependency="true">mvn:org.bouncycastle/bctsp-jdk16/1.46</bundle>
+        <bundle dependency="true">mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xalan/2.7.1_6</bundle>
+        <bundle>mvn:com.github.livesense/org.liveSense.framework.jasperreports/${liveSense.framework.jasperreports.version}</bundle>
+	</feature>
+</features>
